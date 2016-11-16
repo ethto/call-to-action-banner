@@ -1,0 +1,45 @@
+html {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.img-flex {
+  width: 100%;
+  display: block;
+}
+
+.banner {
+  position: relative;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.banner-content {
+  padding: 0 1rem 0 0;
+  padding-top: 2em;
+  bottom: 1rem;
+  left: 50%;
+  position: absolute;
+  max-width: 50em;
+  transform: translateX(-50%);
+  width: 100%;
+  margin: 1em 1em .5em;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
