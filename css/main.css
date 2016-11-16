@@ -13,18 +13,20 @@ body {
   margin: 0;
 }
 
-.img-flex {
-  width: 100%;
-  display: block;
-}
-
 .banner {
   position: relative;
   max-height: 500px;
   overflow: hidden;
 }
 
+.img-flex {
+  width: 100%;
+  display: block;
+  position: relative;
+}
+
 .banner-content {
+  float: right;
   padding: 0 1rem 0 0;
   padding-top: 2em;
   bottom: 1rem;
@@ -36,8 +38,15 @@ body {
   margin: 1em 1em .5em;
 }
 
+.btn-big {
+  position: absolute;
+  max-width: 50em;
+  top: 3rem;
+}
+
 h2 {
   font-size: 3rem;
+  margin: 0 0 10px;
 }
 
 p {
