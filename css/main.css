@@ -39,6 +39,7 @@ body {
 }
 
 .btn-big {
+  float: left;
   position: absolute;
   max-width: 50em;
   top: 3rem;
@@ -51,4 +52,12 @@ h2 {
 
 p {
   font-size: 1.5rem;
+}
+
+.btn {
+  color: #fff;
+  background-color: black;
+  padding: 1em;
+  border-radius: 4px;
+  text-decoration: none;
 }
